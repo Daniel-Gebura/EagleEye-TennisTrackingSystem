@@ -1,5 +1,5 @@
 <picture>
-   <img src = ".\design\graphics">
+   <img src = "design/graphics/EagleEyeCompanyLogo.png">
 </picture>
 
 ## Tennis Ball Tracking Solution
