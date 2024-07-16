@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr 27 11:07:51 2024
+# Process ID: 18792
+# Current directory: S:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj
+# Command line: vivado.exe -mode batch -notrace -source vivado_create_prj.tcl
+# Log file: S:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj/vivado.log
+# Journal file: S:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj\vivado.jou
+#-----------------------------------------------------------
+source vivado_create_prj.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 357.477 ; gain = 60.246
+WARNING: [Project 1-153] The current project device 'xc7z020clg400-1' does not match with the device on the 'KRTKL.COM:SNICKERDOODLE_BLACK:PART0:1.0' board part. A device change to match the device on 'KRTKL.COM:SNICKERDOODLE_BLACK:PART0:1.0' board part is being done. Please upgrade the IP in the project via the upgrade_ip command or by selecting Reports => Reports IP Status.
+INFO: [Project 1-152] Project part set to zynq (xc7z020clg400-3)
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 's:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj/ipcore'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+Wrote  : <S:\Documents\ESD2_Final_Project\FPGA_stuff\hdl_prj3\vivado_ip_prj\src\design_1\design_1.bd> 
+INFO: [BD_TCL-6] Checking if the following IPs exist in the project's IP catalog:  
+xilinx.com:ip:axi_vdma:6.3 xilinx.com:ip:axis_broadcaster:1.1 xilinx.com:user:cam_axi:1.0 xilinx.com:ip:processing_system7:5.5 xilinx.com:user:read_trigger:1.0 xilinx.com:ip:proc_sys_reset:5.0 xilinx.com:ip:smartconnect:1.0  .
+INFO: [PS7-6] Configuring Board Preset part0. Please wait ......
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Wrote  : <S:\Documents\ESD2_Final_Project\FPGA_stuff\hdl_prj3\vivado_ip_prj\src\design_1\design_1.bd> 
+WARNING: [BD_TCL-1000] This Tcl script was generated from a block design that has not been validated. It is possible that design <design_1> may result in errors during validation.
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 27 11:08:11 2024...

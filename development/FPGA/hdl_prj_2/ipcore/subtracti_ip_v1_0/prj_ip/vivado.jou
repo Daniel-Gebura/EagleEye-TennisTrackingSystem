@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 26 14:00:34 2024
+# Process ID: 2348
+# Current directory: S:/ESD2_Final_Project/FPGA_stuff/hdl_prj_2/ipcore/subtracti_ip_v1_0/prj_ip
+# Command line: vivado.exe -mode batch -notrace -source vivado_ip_package.tcl
+# Log file: S:/ESD2_Final_Project/FPGA_stuff/hdl_prj_2/ipcore/subtracti_ip_v1_0/prj_ip/vivado.log
+# Journal file: S:/ESD2_Final_Project/FPGA_stuff/hdl_prj_2/ipcore/subtracti_ip_v1_0/prj_ip\vivado.jou
+#-----------------------------------------------------------
+source vivado_ip_package.tcl -notrace

@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 24 10:09:15 2024
+# Process ID: 5464
+# Current directory: C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj
+# Command line: vivado.exe -mode batch -notrace -source vivado_insert_ip.tcl
+# Log file: C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/vivado.log
+# Journal file: C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj\vivado.jou
+#-----------------------------------------------------------
+source vivado_insert_ip.tcl -notrace
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/ipcore'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-949] Unzipped './ipcore/subtracti_ip_v1_0.zip' into repository 'c:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/ipcore'.
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/ipcore'
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_1
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_2
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_3
+Adding component instance block -- xilinx.com:ip:axis_broadcaster:1.1 - axis_broadcaster_0
+Adding component instance block -- xilinx.com:user:cam_axi:1.0 - cam_axi_1
+Adding component instance block -- xilinx.com:user:cam_axi:1.0 - cam_axi_2
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:user:read_trigger:1.0 - read_trigger_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_1
+Successfully read diagram <design_1> from BD file <C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/src/design_1/design_1.bd>
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+WARNING: [BD 41-927] Following properties on pin /subtracti_ip_0/IPCORE_CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+WARNING: [BD 41-927] Following properties on pin /subtracti_ip_0/AXI4_Lite_ACLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+Wrote  : <C:\Users\jms7664\Downloads\simulink\hdl_prj\vivado_ip_prj\src\design_1\design_1.bd> 
+VHDL Output written to : C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/src/design_1/synth/design_1.vhd
+VHDL Output written to : C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/src/design_1/sim/design_1.vhd
+VHDL Output written to : C:/Users/jms7664/Downloads/simulink/hdl_prj/vivado_ip_prj/src/design_1/hdl/design_1_wrapper.vhd
+make_wrapper: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 750.531 ; gain = 308.355
+INFO: [BD 5-320] Validate design is not run, since the design is already validated.
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 24 10:09:35 2024...

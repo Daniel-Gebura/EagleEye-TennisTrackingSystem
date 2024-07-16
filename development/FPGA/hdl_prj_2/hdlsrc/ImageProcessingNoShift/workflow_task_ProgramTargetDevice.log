@@ -1,0 +1,5 @@
+Task "Program Target Device" unsuccessful. See log for details.
+Generated logfile: 
+
+ The bitstream does not exist. 
+ Please check the external console to make sure the bitstream generation is completed and try again.

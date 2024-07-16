@@ -1,0 +1,7 @@
+ --> subtracti_ip_src_subtraction_core_pkg
+ImageProcessingNoShift/subtraction_core/Subsystem1/Binarize --> subtracti_ip_src_Binarize
+ImageProcessingNoShift/subtraction_core/Subsystem1/Binarize1 --> subtracti_ip_src_Binarize1
+ImageProcessingNoShift/subtraction_core/Subsystem1/Binarize2 --> subtracti_ip_src_Binarize2
+ImageProcessingNoShift/subtraction_core/Subsystem1/Binarize3 --> subtracti_ip_src_Binarize3
+ImageProcessingNoShift/subtraction_core/Subsystem1 --> subtracti_ip_src_Subsystem1
+ImageProcessingNoShift/subtraction_core --> subtracti_ip_src_subtraction_core

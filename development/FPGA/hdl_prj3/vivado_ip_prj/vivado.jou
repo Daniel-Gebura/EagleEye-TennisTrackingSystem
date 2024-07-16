@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr 27 11:42:27 2024
+# Process ID: 3980
+# Current directory: S:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj
+# Command line: vivado.exe -mode batch -notrace -source vivado_build.tcl
+# Log file: S:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj/vivado.log
+# Journal file: S:/Documents/ESD2_Final_Project/FPGA_stuff/hdl_prj3/vivado_ip_prj\vivado.jou
+#-----------------------------------------------------------
+source vivado_build.tcl -notrace
